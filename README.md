@@ -499,7 +499,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ## 1. Sales Trends Over Time
 
-![Monthly Revenue](images/01_monthly_revenue.png)
+![Monthly Revenue](screenshots/01_monthly_revenue.png)
 
 - Revenue follows a clear **seasonal pattern**. September to November produced 36.1% of revenue in the first 12 months (Dec 2009 – Nov 2010) and 37.5% in the second (Dec 2010 – Nov 2011).
 - **November is the peak month** in both years: £1.43M in November 2010 and £1.45M in November 2011 (15.2% of the second 12-month period's revenue).
@@ -511,7 +511,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ## 2. Product Popularity
 
-![Top Products](images/02_top_products.png)
+![Top Products](screenshots/02_top_products.png)
 
 | Rank | Top by units sold | Units | Top by revenue | Revenue |
 |---:|---|---:|---|---:|
@@ -530,7 +530,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ## 3. Country-wise Sales Performance
 
-![Country Revenue](images/03_country_revenue.png)
+![Country Revenue](screenshots/03_country_revenue.png)
 
 | Country | Revenue | Share | Invoices | Customers | Average Invoice |
 |---|---:|---:|---:|---:|---:|
@@ -549,7 +549,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ## 4. Revenue and Order Value Distribution
 
-![Invoice Value Distribution](images/04_invoice_value_distribution.png)
+![Invoice Value Distribution](screenshots/04_invoice_value_distribution.png)
 
 - Invoice values are **heavily right-skewed** (skewness 18.2). The median invoice is £301, while the mean is £491.
 - 3,491 invoices (8.8%) are flagged as outliers by the boxplot rule, with values up to £52,941. These are large bulk orders consistent with a wholesale business, not data errors, so they were **kept**. A log scale is used for visualization.
@@ -559,7 +559,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ## 5. Customer Purchase Behavior
 
-![Customer Frequency](images/05_customer_frequency.png)
+![Customer Frequency](screenshots/05_customer_frequency.png)
 
 | Measure | Value |
 |---|---|
@@ -578,7 +578,7 @@ A typical invoice contains 15 line items (median) and about 148 units. The mean 
 
 ### Revenue Concentration
 
-![Revenue Concentration](images/08_revenue_concentration.png)
+![Revenue Concentration](screenshots/08_revenue_concentration.png)
 
 | Customer Group | Share of Revenue (identified customers) |
 |---|---:|
@@ -594,7 +594,7 @@ Revenue depends heavily on a small group of high-value customers. The top 10% of
 
 ## 6. Purchase Timing
 
-![Weekday and Hour Heatmap](images/06_weekday_hour_heatmap.png)
+![Weekday and Hour Heatmap](screenshots/06_weekday_hour_heatmap.png)
 
 | Day | Share of Revenue | Invoices |
 |---|---:|---:|
@@ -615,7 +615,7 @@ Revenue depends heavily on a small group of high-value customers. The top 10% of
 
 ## 7. Relationship Between Frequency and Monetary Value
 
-![Frequency vs Monetary](images/07_frequency_vs_monetary.png)
+![Frequency vs Monetary](screenshots/07_frequency_vs_monetary.png)
 
 Customers who order more often also spend more. The Spearman correlation between the number of invoices and total spend is **0.86**, a strong positive relationship. Both measures span several orders of magnitude, so a log scale is used.
 
